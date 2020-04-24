@@ -151,8 +151,13 @@ p{
     color: var(--primary-color) !important;
 }
 
-.l-heading{
+.list li:last-child{
+    border-bottom: none;
+}
 
+.l-heading{
+    font-size: 3rem;
+    padding: 1rem;
 }
 
 .page-container {
@@ -277,6 +282,19 @@ p{
     grid-column: 2/span 2;
 }
 
+/* Article Page */
+#article .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eeeeee;
+    padding: 0.5rem;
+}
+
+#article .meta .category {
+    margin-top: 0.4rem;
+}
+
 /* Footer */
 #main-footer{
     background: var(--dark-color);
@@ -318,4 +336,5 @@ p{
     width: 90%;
 }
 
-/* About Page */
+
+/*  */
