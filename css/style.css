@@ -297,7 +297,7 @@ p{
 
 /* Footer */
 #main-footer{
-    background: var(--dark-color);
+    background: var(--dark-color) !important;
     color: white;
 }
 
